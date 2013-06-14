@@ -18,42 +18,14 @@
         
         <script src="js/heckle.js" type="text/javascript"></script>
     </head> 
-    <body> 
-        
-        
-        <!-- Menü und Intro --> 
-        <div data-role="page" id="home">
-            <div data-role="header">
-                <h1>Heckle!</h1> 
-            </div>  
-            <div data-role="content">
-                <h3>Willkommen zum Zwischenrufen</h3>
-                <p>Wollen Sie dem Referenten eine Frage stellen? Oder wollen Sie ihm Feedback geben?
-                    Dann sind Sie hier richtig.<br/>
-                </p>
-                <p>
-                    Wählen Sie einen Vortrag aus und schicken rufen Sie dazwischen. Der Referent wird
-                    über ihren Zwischenruf informiert und versucht, darauf zeitnah zu reagieren.<br/>
-                    Probieren Sie es aus...
-                </p>
-            </div>
-            <div class="nav">
-                <ul data-role="listview">
-                    <li><a href="#pageZwischenrufen" data-transition="slide">Jetzt zwischenrufen...</a></li>
-                </ul>
-            </div>
-            <div data-role="footer" data-position="fixed" data-id="oneFooter">
-                <span class="footerText">Built with Icenium&trade; for dotnetpro</span>
-            </div>
-        </div>
-        
+    <body>   
 
-        <!-- Seiten mit Formular zum Zwischenrufen -->
         <div data-role="page" id="pageZwischenrufen" data-add-back-btn="true">
             <div data-role="header">
                 <h1>Heckle!</h1>
             </div>
             <div data-role="content">
+                
                 <div id='paneKomponieren'>
                     <h3>Zwischenrufen?</h3>
                     <label for="txtNachricht">Nachricht</label>
@@ -68,13 +40,16 @@
                     <button id="btnZwischenrufen" data-theme="a">Senden</button>
                 </div>
                 
+                
                 <div id='paneQuittung' style="display:none">
                     <h3>Zwischengerufen!</h3>
                     <div id='txtNachrichtVersandt' style="display:block;"></div>
+                    
+                    <button id="btnNochmal" data-theme="a">Nochmal</button>
                 </div>
+                
             </div>
         </div>
-        
         
     </body>
     </html>
