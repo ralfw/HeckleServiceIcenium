@@ -1,7 +1,9 @@
 function Integrieren() {
-    var view = new View();
-    view.Zwischenruf = function(nachrichtenteile) {
-        Zwischenrufen(nachrichtenteile, view.Nachricht_anzeigen, view.Fehler_anzeigen);
+    var presenter = new Presenter();
+    presenter.Zwischenruf = function(nachrichtenteile) {
+        Zwischenrufen(nachrichtenteile, 
+                      presenter.Nachricht_anzeigen, 
+                      presenter.Fehler_anzeigen);
     }
 }
 
