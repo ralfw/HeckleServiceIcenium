@@ -68,7 +68,7 @@
     <Content Include="jquery-mobile\jquery.mobile-1.3.0.min.css" />
     <Content Include="jquery-mobile\jquery.mobile-1.3.0.min.js" />
     <Content Include="js\operationen.js" />
-    <Content Include="js\heckle.js" />
+    <Content Include="js\main.js" />
     <Content Include="js\integration.js" />
     <Content Include="js\membran\pushover.js" />
     <Content Include="js\membran\view.js" />
