@@ -1,4 +1,4 @@
-function View() {
+function Presenter() {
     var self = this;
 
     

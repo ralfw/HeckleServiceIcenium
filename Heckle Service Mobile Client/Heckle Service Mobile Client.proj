@@ -71,7 +71,7 @@
     <Content Include="js\main.js" />
     <Content Include="js\integration.js" />
     <Content Include="js\membran\pushover.js" />
-    <Content Include="js\membran\view.js" />
+    <Content Include="js\membran\presenter.js" />
     <Content Include="styles\main.css" />
     <Content Include="cordova.ios.js">
       <Platform>iOS</Platform>
